@@ -21,6 +21,7 @@ class PostController extends Controller
 
     /**
      * Display a listing of the resource.
+     * @return Response 200
      */
     public function index()
     {
@@ -41,9 +42,11 @@ class PostController extends Controller
 
     /**
      * Store a newly created resource in storage.
+     * @return Response 201
      */
     public function store(Request $request)
     {
+        // dd($request);
         $imgRules = [
             'img' => 'nullable|mimes:jpg,png,jpeg,gif|max:30000', // Max size 30MB
         ];
@@ -104,6 +107,7 @@ class PostController extends Controller
 
     /**
      * Display the specified resource.
+     * @return Response 200
      */
     public function show($id)
     {

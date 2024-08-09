@@ -15,6 +15,7 @@ class PostRepository
 
     /**
      * Capture all registers
+     * @return object
      */
     public function all(): mixed
     {
@@ -23,6 +24,7 @@ class PostRepository
 
     /**
      * Fetch a specified resource by id
+     * @return object
      */
     public function find($id): mixed
     {
@@ -31,6 +33,7 @@ class PostRepository
 
     /**
      * Insert one resource
+     * @return object
      */
     public function create($data): mixed
     {
