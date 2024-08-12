@@ -75,11 +75,11 @@ Predis is a lib that able Laravel to connect with Redis, I recomend you read the
 php artisan serve
 ```
 
-3. Sending Requests: Use Postman to send requests, which includes comprehensive documentation for the API and pre-configured requests.
+3. Sending Requests: Use Postman to send requests, which includes comprehensive documentation for the API and pre-configured requests. You can send images and videos as well, the documentation have examples to do this using form-data type to requet's body.
    
 <h2 id="routes">📍 API Endpoints</h2>
 
-To have all details about endpoints you can access the complete documentation here: build...
+To have all details about endpoints you can access the complete documentation here: (https://documenter.getpostman.com/view/34296685/2sA3s4mVzD)
 
 <h2 id="contacts">📫 Contacts</h2>
 
