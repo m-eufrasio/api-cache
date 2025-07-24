@@ -1,6 +1,6 @@
 <h1 align="center" style="font-weight: bold;">API Cache 💻</h1>
 
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-no-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-no-red.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity)
 
 <p align="center">
  <a href="#tech">Technologies</a> • 
